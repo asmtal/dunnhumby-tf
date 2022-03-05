@@ -2,9 +2,11 @@
 
 This code will prepare infrastructure for an application exposed on port 8080. 
 
+   // run from working/infrastructure
+
    Initialize tf:
    
-   // run from working/infrastructure
+
     terraform init
     terraform plan //will display the plan tf code will prepare. 
     terraform apply //will apply the infrastructure to AWS cloud after providing valid .aws file. 
